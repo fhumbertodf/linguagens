@@ -17,7 +17,7 @@ print("X = {}".format(x))
 ```
 <?php
     echo "Hello World!", "\n";
-    echo "X = $x\n";
+    echo "X = $x", "\n";
 ?>
 ```
 
