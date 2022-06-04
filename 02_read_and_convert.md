@@ -5,6 +5,7 @@ var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 var a = parseInt(lines.shift());
 var b = parseFloat(lines.shift());
+var str = lines.shift();
 ```
 
 ### Python
@@ -12,6 +13,7 @@ var b = parseFloat(lines.shift());
 ```
 a = int(input())
 b = float(input())
+str = input()
 ```
 
 ### PHP
@@ -20,6 +22,7 @@ b = float(input())
 <?php
     $a = (int) trim(fgets(STDIN));
     $b = (float) trim(fgets(STDIN));
+    $str = trim(fgets(STDIN));
 ?>
 ```
 
@@ -34,6 +37,7 @@ public class Main {
         Scanner leitor = new Scanner(System.in);
 	int a = leitor.nextInt();
 	double b = leitor.nextDouble();
+	String str = leitor.next();
     }	
 }
 ```
