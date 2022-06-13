@@ -1,37 +1,65 @@
 ### JavaScript
 
 ```
-if (valor1 > valor2 && valor1 > valor3) {
-	console.log(valor1 + ' eh o maior');
-} else if (valor2 > valor3) {
-	console.log(valor2 + ' eh o maior');
+if (condition) {
+  code to be executed if condition is true;
+}
+
+if (condition) {
+  code to be executed if condition is true;
 } else {
-	console.log(valor3 + ' eh o maior');
+  code to be executed if condition is false;
+}
+
+if (condition) {
+  code to be executed if this condition is true;
+} else if (condition) {
+  code to be executed if first condition is false and this condition is true;
+} else {
+  code to be executed if all conditions are false;
 }
 ```
 
 ### Python
 
 ```
-if valor1 > valor2 and valor1 > valor3:
-	print(str(valor1) + " eh o maior")
-elif valor2 > valor3:
-	print(str(valor2) + " eh o maior")
-else:
-	print(str(valor3) + " eh o maior")
+if (condition) :
+  code to be executed if condition is true
+
+if (condition) :
+  code to be executed if condition is true;
+else :
+  code to be executed if condition is false;
+
+if (condition) :
+  code to be executed if this condition is true;
+elif (condition) :
+  code to be executed if first condition is false and this condition is true;
+else :
+  code to be executed if all conditions are false;
 ```
 
 ### PHP
 
 ```
 <?php
-    if ($valor1 > $valor2 && $valor1 > $valor3) {
-		echo strval($valor1)." eh o maior", "\n";
-	} elseif ($valor2 > $valor3) {
-		echo strval($valor2)." eh o maior", "\n";
-	} else { 
-        echo strval($valor3)." eh o maior", "\n"; 
-    }
+if (condition) {
+  code to be executed if condition is true;
+}
+
+if (condition) {
+  code to be executed if condition is true;
+} else {
+  code to be executed if condition is false;
+}
+
+if (condition) {
+  code to be executed if this condition is true;
+} elseif (condition) {
+  code to be executed if first condition is false and this condition is true;
+} else {
+  code to be executed if all conditions are false;
+}
 ?>
 ```
 
@@ -43,13 +71,23 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        if (valor1 > valor2 && valor1 > valor3) {
-        	System.out.printf("%d eh o maior%n", valor1);
-        } else if (valor2 > valor3) {
-        	System.out.printf("%d eh o maior%n", valor2);
-        } else {
-        	System.out.printf("%d eh o maior%n", valor3);
-        }
+        if (condition) {
+	  code to be executed if condition is true;
+	}
+
+	if (condition) {
+	  code to be executed if condition is true;
+	} else {
+	  code to be executed if condition is false;
+	}
+
+	if (condition) {
+	  code to be executed if this condition is true;
+	} elseif (condition) {
+	  code to be executed if first condition is false and this condition is true;
+	} else {
+	  code to be executed if all conditions are false;
+	}
     }	
 }
 ```
