@@ -27,16 +27,16 @@ if (condition) :
   code to be executed if condition is true
 
 if (condition) :
-  code to be executed if condition is true;
+  code to be executed if condition is true
 else :
-  code to be executed if condition is false;
+  code to be executed if condition is false
 
 if (condition) :
-  code to be executed if this condition is true;
+  code to be executed if this condition is true
 elif (condition) :
-  code to be executed if first condition is false and this condition is true;
+  code to be executed if first condition is false and this condition is true
 else :
-  code to be executed if all conditions are false;
+  code to be executed if all conditions are false
 ```
 
 ### PHP
